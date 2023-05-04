@@ -4,18 +4,11 @@ import {
   Heading,
   VStack,
   Image,
-  NumberInput,
-  NumberInputField,
-  NumberDecrementStepper,
-  NumberIncrementStepper,
-  NumberInputStepper,
   Text,
-  Select,
   Input,
   FormControl,
   Spacer,
 } from "@chakra-ui/react";
-import { useState } from "react";
 
 export default function Body() {
   const generateBox = (name: string, children: JSX.Element) => {

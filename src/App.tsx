@@ -1,24 +1,4 @@
-import * as React from "react";
-import {
-  ChakraProvider,
-  Box,
-  VStack,
-  Container,
-  Heading,
-  Image,
-  StackDivider,
-  NumberInput,
-  NumberInputField,
-  NumberInputStepper,
-  NumberIncrementStepper,
-  NumberDecrementStepper,
-  HStack,
-  Text,
-  Spacer,
-  Flex,
-  Center,
-} from "@chakra-ui/react";
-import { Logo } from "./Logo";
+import { ChakraProvider, Box, VStack, Center } from "@chakra-ui/react";
 import theme from "./theme";
 import Body from "./components/body";
 import Logos from "./components/logos";

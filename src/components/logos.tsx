@@ -1,22 +1,4 @@
-import {
-  Box,
-  Container,
-  Heading,
-  VStack,
-  Image,
-  NumberInput,
-  NumberInputField,
-  NumberDecrementStepper,
-  NumberIncrementStepper,
-  NumberInputStepper,
-  Text,
-  Select,
-  Input,
-  FormControl,
-  Spacer,
-  Flex,
-} from "@chakra-ui/react";
-import { useState } from "react";
+import { Box, Spacer, Flex } from "@chakra-ui/react";
 import { Logo } from "../Logo";
 
 export default function Logos() {
