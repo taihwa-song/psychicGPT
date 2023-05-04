@@ -9,6 +9,7 @@ const theme = extendTheme({
     global: () => ({
       body: {
         bg: "#FCF2E1",
+        textColor: "white",
       },
     }),
   },
