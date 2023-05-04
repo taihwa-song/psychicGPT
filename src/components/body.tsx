@@ -35,7 +35,7 @@ export default function Body() {
           <Image src={require("./test1.png")}></Image>
         </Box>
         <Box>
-          <Text>Please tell us about yourself</Text>
+          <Text>Tell me about yourself</Text>
         </Box>
         <FormControl>
           {generateBox(

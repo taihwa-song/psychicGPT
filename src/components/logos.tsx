@@ -5,12 +5,12 @@ export default function Logos() {
   return (
     <Flex width="100%">
       <Box>
-        <Logo h="10vmin" pointerEvents="none" />
+        <Logo h={{ base: "5rem", md: "10rem" }} pointerEvents="none" />
       </Box>
 
       <Spacer />
       <Box>
-        <Logo h="10vmin" pointerEvents="none" />
+        <Logo h={{ base: "5rem", md: "10rem" }} pointerEvents="none" />
       </Box>
     </Flex>
   );
