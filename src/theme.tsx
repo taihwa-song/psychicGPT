@@ -1,6 +1,4 @@
-import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
-import type { StyleFunctionProps } from "@chakra-ui/styled-system";
-import { mode } from "@chakra-ui/theme-tools";
+import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
   fonts: {
