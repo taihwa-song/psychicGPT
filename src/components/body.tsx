@@ -45,7 +45,10 @@ export default function Body() {
       }),
     };
     setLoading(true);
-    fetch("http://localhost:4000", requestOptions)
+    fetch(
+      "https://nft63qhv5h.execute-api.us-east-2.amazonaws.com/psychicgpt",
+      requestOptions
+    )
       .then((response) => response.json())
       .then((data) => setResponse("res" in data ? data["res"] : ""))
       .finally(() => {
