@@ -1,7 +1,7 @@
 import { Box, Card } from "@chakra-ui/react";
 import { ReadingCard } from "./card";
 
-export default (data: object) => {
+const Response = (data: object) => {
   return (
     <Box>
       <Card maxW="sm">
@@ -22,3 +22,5 @@ export default (data: object) => {
     </Box>
   );
 };
+
+export default Response;
