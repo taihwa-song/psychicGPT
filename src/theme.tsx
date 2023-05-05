@@ -7,7 +7,11 @@ const theme = extendTheme({
   },
   styles: {
     global: () => ({
+      head: {
+        fontFamily: "cursive",
+      },
       body: {
+        fontFamily: "cursive",
         bg: "#FCF2E1",
         textColor: "white",
       },
