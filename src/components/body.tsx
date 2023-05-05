@@ -8,7 +8,6 @@ import {
   Input,
   FormControl,
   Spacer,
-  Card,
   Button,
   Spinner,
 } from "@chakra-ui/react";

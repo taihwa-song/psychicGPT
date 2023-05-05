@@ -1,7 +1,6 @@
 import {
   Card,
   CardBody,
-  CardProps,
   Center,
   Heading,
   Image,
